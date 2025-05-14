@@ -1,0 +1,64 @@
+/* Footer Container */
+.footer-modern {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    font-family: 'Poppins', Arial, sans-serif;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Footer Logo and Brand */
+.footer-modern img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.footer-modern img:hover {
+    transform: scale(1.1);
+}
+
+.footer-slogan {
+    font-size: 0.9rem;
+    color: #b2dfdb;
+}
+
+/* Footer Titles */
+.footer-title {
+    color: #f8f9fa;
+    letter-spacing: 1px;
+    font-size: 0.95rem;
+}
+
+/* Footer Links */
+.footer-link {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    display: block;
+    padding: 0.2rem 0;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #00bcd4;
+    text-decoration: underline;
+}
+
+/* Social Media Buttons */
+.footer-social-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 0.3rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.footer-social-btn:hover {
+    background: linear-gradient(90deg, #388e3c 60%, #2196f3 100%);
+    transform: scale(1.1);
+}

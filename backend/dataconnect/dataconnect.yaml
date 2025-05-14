@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "ci4authentication"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "ci4authentication-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

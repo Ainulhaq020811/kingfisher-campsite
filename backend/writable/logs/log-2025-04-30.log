@@ -1,0 +1,18 @@
+CRITICAL - 2025-04-30 02:39:43 --> ErrorException: Undefined variable $cards
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cards', 'C:\\Users\\User\\ci4authentication\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\User\\ci4authentication\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Auth.php(22): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->base()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\User\\ci4authentication\\public\\index.php')
+DEBUG - 2025-04-30 02:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 02:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

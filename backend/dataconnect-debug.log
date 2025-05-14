@@ -1,0 +1,16 @@
+I0507 17:00:15.285227   25740 load.go:37] Reloading schema and connectors...
+I0507 17:00:15.329547   25740 control.go:73] [/emulator/ci4authentication 0f8e] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
+I0507 17:00:15.349082   25740 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "C:\\Users\\User\\ci4authentication\\dataconnect-generated\\js\\default-connector"
+I0507 17:00:15.354438   25740 collector.go:107] schema extensions wrote into "C:\\Users\\User\\ci4authentication\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [71117B] 
+I0507 17:00:15.359132   25740 collector.go:107] connector "default" javascriptSdk wrote into "C:\\Users\\User\\ci4authentication\\dataconnect-generated\\js\\default-connector"
+Generated sources: esm\package.json [17B] react\esm\package.json [17B] react\index.cjs.js [0B] angular\index.d.ts [0B] angular\esm\index.esm.js [0B] package.json [1110B] react\esm\index.esm.js [0B] react\README.md [5417B] angular\esm\package.json [17B] esm\index.esm.js [120B] index.cjs.js [155B] README.md [2774B] react\index.d.ts [228B] index.d.ts [246B] react\package.json [468B] angular\package.json [661B] angular\index.cjs.js [1B] 
+I0507 17:00:15.359132   25740 installsdk.go:34] Unable to find package.json. Skipping automatic installation of @firebasegen/default-connector
+I0507 17:00:15.359132   25740 load.go:115] Finished reloading
+I0507 17:00:15.360366   25740 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I0507 17:00:15.360366   25740 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+I0507 17:00:17.866639   25740 control.go:73] [/emulator/ci4authentication 3e04] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
