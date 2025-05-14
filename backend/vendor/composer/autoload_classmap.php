@@ -6,6 +6,11 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Controllers\\Api\\BookingController' => $baseDir . '/app/Controllers/Api/BookingController.php',
+    'App\\Controllers\\Api\\CustomerController' => $baseDir . '/app/Controllers/Api/CustomerController.php',
+    'App\\Controllers\\Api\\LotController' => $baseDir . '/app/Controllers/Api/LotController.php',
+    'App\\Controllers\\Api\\RentalController' => $baseDir . '/app/Controllers/Api/RentalController.php',
+    'App\\Controllers\\Api\\ZoneController' => $baseDir . '/app/Controllers/Api/ZoneController.php',
     'App\\Controllers\\Auth' => $baseDir . '/app/Controllers/Auth.php',
     'App\\Controllers\\BaseController' => $baseDir . '/app/Controllers/BaseController.php',
     'App\\Controllers\\Booking' => $baseDir . '/app/Controllers/Booking.php',
@@ -16,9 +21,15 @@ return array(
     'App\\Controllers\\Users' => $baseDir . '/app/Controllers/Users.php',
     'App\\Filters\\AlreadyLoggedInFilter' => $baseDir . '/app/Filters/AlreadyLoggedInFilter.php',
     'App\\Filters\\AuthCheckFilter' => $baseDir . '/app/Filters/AuthCheckFilter.php',
+    'App\\Filters\\Cors' => $baseDir . '/app/Filters/Cors.php',
     'App\\Libraries\\Hash' => $baseDir . '/app/Libraries/Hash.php',
+    'App\\Models\\BookingModel' => $baseDir . '/app/Models/BookingModel.php',
+    'App\\Models\\CustomerModel' => $baseDir . '/app/Models/CustomerModel.php',
+    'App\\Models\\LotModel' => $baseDir . '/app/Models/LotModel.php',
+    'App\\Models\\RentalModel' => $baseDir . '/app/Models/RentalModel.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Models\\UsersModel' => $baseDir . '/app/Models/UsersModel.php',
+    'App\\Models\\ZoneModel' => $baseDir . '/app/Models/ZoneModel.php',
     'CodeIgniter\\API\\ResponseTrait' => $vendorDir . '/codeigniter4/framework/system/API/ResponseTrait.php',
     'CodeIgniter\\Autoloader\\Autoloader' => $vendorDir . '/codeigniter4/framework/system/Autoloader/Autoloader.php',
     'CodeIgniter\\Autoloader\\FileLocator' => $vendorDir . '/codeigniter4/framework/system/Autoloader/FileLocator.php',

@@ -100,6 +100,11 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
     );
 
     public static $classMap = array (
+        'App\\Controllers\\Api\\BookingController' => __DIR__ . '/../..' . '/app/Controllers/Api/BookingController.php',
+        'App\\Controllers\\Api\\CustomerController' => __DIR__ . '/../..' . '/app/Controllers/Api/CustomerController.php',
+        'App\\Controllers\\Api\\LotController' => __DIR__ . '/../..' . '/app/Controllers/Api/LotController.php',
+        'App\\Controllers\\Api\\RentalController' => __DIR__ . '/../..' . '/app/Controllers/Api/RentalController.php',
+        'App\\Controllers\\Api\\ZoneController' => __DIR__ . '/../..' . '/app/Controllers/Api/ZoneController.php',
         'App\\Controllers\\Auth' => __DIR__ . '/../..' . '/app/Controllers/Auth.php',
         'App\\Controllers\\BaseController' => __DIR__ . '/../..' . '/app/Controllers/BaseController.php',
         'App\\Controllers\\Booking' => __DIR__ . '/../..' . '/app/Controllers/Booking.php',
@@ -110,9 +115,15 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
         'App\\Controllers\\Users' => __DIR__ . '/../..' . '/app/Controllers/Users.php',
         'App\\Filters\\AlreadyLoggedInFilter' => __DIR__ . '/../..' . '/app/Filters/AlreadyLoggedInFilter.php',
         'App\\Filters\\AuthCheckFilter' => __DIR__ . '/../..' . '/app/Filters/AuthCheckFilter.php',
+        'App\\Filters\\Cors' => __DIR__ . '/../..' . '/app/Filters/Cors.php',
         'App\\Libraries\\Hash' => __DIR__ . '/../..' . '/app/Libraries/Hash.php',
+        'App\\Models\\BookingModel' => __DIR__ . '/../..' . '/app/Models/BookingModel.php',
+        'App\\Models\\CustomerModel' => __DIR__ . '/../..' . '/app/Models/CustomerModel.php',
+        'App\\Models\\LotModel' => __DIR__ . '/../..' . '/app/Models/LotModel.php',
+        'App\\Models\\RentalModel' => __DIR__ . '/../..' . '/app/Models/RentalModel.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Models\\UsersModel' => __DIR__ . '/../..' . '/app/Models/UsersModel.php',
+        'App\\Models\\ZoneModel' => __DIR__ . '/../..' . '/app/Models/ZoneModel.php',
         'CodeIgniter\\API\\ResponseTrait' => __DIR__ . '/..' . '/codeigniter4/framework/system/API/ResponseTrait.php',
         'CodeIgniter\\Autoloader\\Autoloader' => __DIR__ . '/..' . '/codeigniter4/framework/system/Autoloader/Autoloader.php',
         'CodeIgniter\\Autoloader\\FileLocator' => __DIR__ . '/..' . '/codeigniter4/framework/system/Autoloader/FileLocator.php',
