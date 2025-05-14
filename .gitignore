@@ -1,0 +1,15 @@
+# Node & build
+node_modules/
+dist/
+build/
+
+# Composer & PHP
+/vendor/
+.env
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+
+

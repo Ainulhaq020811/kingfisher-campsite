@@ -1,0 +1,4 @@
+# Ignore Composer dependencies and writable logs/cache
+/vendor/
+/writable/
+.env
